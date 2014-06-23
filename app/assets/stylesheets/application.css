@@ -13,6 +13,9 @@
  *= require_tree .
  *= require_self
  */
+
+
+ 
 .logo_text {
   float: left;
   height: 130px;
