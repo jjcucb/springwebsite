@@ -13,3 +13,29 @@
  *= require_tree .
  *= require_self
  */
+.logo_text {
+  float: left;
+  height: 130px;
+  padding: 15px 15px;
+  font-size: 28px;
+  line-height: 20px;
+}
+
+h9,
+.h9
+{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 100px;
+  font-size: 36px;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.1;
+  color: #2375A5;
+}
+
+.nav_content{
+   font-size: 17px;
+   color: #2375A5;
+
+}
