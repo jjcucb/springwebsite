@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+  <title>Spring Foundation</title>
+  <%= stylesheet_link_tag "application", :media => "all" %>
+  <%= javascript_include_tag "jquery-1.11.1.min.js" %>
+  <%= javascript_include_tag "bootstrap.min.js"%>
+  <%= csrf_meta_tags %>
+  <script type="text/javascript">
+    $(document).ready(function(){
+        $('#myCarousel').carousel({
+            interval: 5000
+    })});
+</script>
+
+  </head>
+<body>
+<%= render :partial => '/layouts/application' %>
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="item active">
+          <img src="assets/IMG_1049.JPG" alt="First slide" class = "front-photo">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Spring Foundation</h1>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">About Spring</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item"> 
+          <img src="assets/group_photo.JPG" alt="Second slide" class = "front-photo">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Another example headline.</h1>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="assets/IMG_1043.JPG" alt="Third slide" class = "front-photo">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Another example headline.</h1>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+    </div><!-- /.carousel -->
+  </body>
+</html>

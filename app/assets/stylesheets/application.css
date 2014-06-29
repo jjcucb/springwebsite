@@ -42,3 +42,8 @@ h9,
    color: #2375A5;
 
 }
+
+.front-photo{
+  max-height: 860px;
+  min-width: 100%;
+}
