@@ -54,3 +54,8 @@ h9,
   max-height: 860px;
   min-width: 100%;
 }
+
+a:hover {
+  color: #2375A5 !important;
+
+}
