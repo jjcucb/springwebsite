@@ -23,6 +23,13 @@
   font-size: 28px;
   line-height: 20px;
 }
+.navbar-inverse{
+  background-image: none;
+  background-color: #fff;
+  border-color: #fff;
+}
+
+
 
 h9,
 .h9
