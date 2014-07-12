@@ -1,0 +1,2 @@
+class ComingEventsController < ApplicationController
+end

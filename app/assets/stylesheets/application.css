@@ -29,7 +29,12 @@
   border-color: #fff;
 }
 
-
+h10,
+.h10{
+  color: #2375A5;
+  font-size: 30px;
+  font-family: inherit;
+}
 
 h9,
 .h9

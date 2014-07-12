@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
   root :to => 'intro_page#intro'
+  get "/past_event" => "about_spring#past_event"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
