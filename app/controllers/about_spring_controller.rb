@@ -1,5 +1,6 @@
 class AboutSpringController < ApplicationController
 	def past_event
+		render "/About_Spring/past_event.html.erb"
 	end
 
 	def LBL
