@@ -1,6 +1,24 @@
 Rails.application.routes.draw do
   root :to => 'intro_page#intro'
+
+  #past events
   get "/past_event" => "about_spring#past_event"
+  get "/past_events/cotton_candy_sale" => "about_spring#cotton_candy_sale"
+  get "/past_events/love_beyond_love" => "about_spring#LBL"
+  get "/past_events/fundraising_contest" => "about_spring#fundraising_contest"
+  get "/past_events/cloth_sale" => "about_spring#cloth_sale"
+  get "/past_events/valentines_sale" => "about_spring#valentines_sale"
+  get "/past_events/furniture_drive" => "about_spring#furniture_drive"
+
+
+  #upcoming events
+
+  get "/charity_dinner" => "coming_events#charity_dinner"
+
+  #summer visit
+
+  get "/summer_visit" => "summer_visit#summer_visit"
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

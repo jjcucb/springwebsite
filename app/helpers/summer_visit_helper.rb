@@ -1,0 +1,2 @@
+module SummerVisitHelper
+end
